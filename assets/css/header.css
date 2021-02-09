@@ -1,0 +1,353 @@
+
+/*
+HEADER AREA CSS
+*/
+
+.header__area__wrap {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.header__area__wrap.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    z-index: 9999;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.header__area .container-fluid {
+    padding: 0 5%;
+}
+.welcome__area .container-fluid{
+    padding: 0 15%;
+}
+.header__area {
+    position: relative;
+    z-index: 99;
+}
+
+
+.header__area__wrap {
+    position: absolute;
+    width: 100%;
+    z-index: 23;
+}
+
+
+.single__top__area {
+    margin: 10px 0;
+    color: #C6C8CB;
+}
+
+.single__top:last-child {
+    margin-left: 15px;
+}
+
+.single__top p span {
+    color: #F5AA56;
+    padding-right: 6px;
+    font-weight: 500;
+}
+
+.single__top p {
+    font-weight: 500;
+}
+
+.single__top {
+    position: relative;
+    z-index: 2;
+    padding-right: 25px;
+}
+
+.single__top:after {
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 2px;
+    background: #4F5661;
+    top: 10%;
+    right: 0;
+}
+.top__social li a {
+    color: #C6C8CB;
+    font-size: 16px;
+}
+
+.top__social li {
+    margin-left: 8px;
+}
+
+.top__social li:first-child {
+    margin-left: 0;
+}
+
+
+
+/*
+HEADER3 AREA CSS
+*/
+
+.header3, 
+.header3.sticky{
+    background: #fff;
+}
+
+.header3 .top__social li a, 
+.header3 .single__top p  {
+    color: #303845;
+    opacity: .8;
+}
+
+
+.header3 .stellarnav li a {
+    color: #303845;
+}
+
+.header3 .single__top:after {
+    background: #E0E1E3;
+}
+
+.header3 .stellarnav ul ul {
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header3 .stellarnav.light .menu-toggle span.bars span {
+    background: #303845;
+}
+
+.header3 .stellarnav ul, 
+.header2 .stellarnav ul {
+    text-align: right;
+}
+.header3 .stellarnav ul li, 
+.header2 .stellarnav ul li{
+    text-align: left;
+}
+
+.header2 .stellarnav ul ul{
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*
+    DEMO STYLE
+*/
+
+
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+ 
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #1C232E;
+    color: #fff;
+    position: fixed;
+    z-index: 99;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #303845;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+   
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff
+}
+
+#sidebar ul li a:hover {
+    color: #303845;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #303845;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.sidemenu ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #303845;
+    color: #fff
+}
+
+
+
+.side__menu {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #1C232E;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: -50px;
+    top: 50px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.sidebar__logo {
+    padding: 30px;
+    background: #303845;
+}
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+
+.side__ccontent {
+    padding: 20px;
+    background: #303845;
+}
+
+
+.single__sidebar {
+    position: relative;
+    z-index: 2;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.single__sidebar__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #D6B97C;
+}
+
+.single__sidebar:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar__contact {
+    margin-bottom: 30px;
+}
+
+ul.sidebar__social li {
+    display: inline-block;
+}
+
+ul.sidebar__social li a {
+    width: 40px;
+    height: 40px;
+    background: #1C232E;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 13px !important;
+    border-radius: 5px;
+}
+
+
+ul.sidebar__social li a:hover{
+
+    background: #F5AA56;
+}
+
+
+
+
+.menu1 li ul {
+    background: #303845 !important;
+}
+
+.menu1 li ul li a{
+    color: #fff !important;
+}
+
+.menu1 .mobile li ul{
+    background: #fff !important;
+}
+.menu1 .mobile li ul li a{
+    color: #303845 !important;
+}

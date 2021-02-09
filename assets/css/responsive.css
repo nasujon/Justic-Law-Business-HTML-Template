@@ -1,0 +1,505 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+/*
+Theme Name:  
+Theme url:
+Author:
+Author url:
+Version:1.0.0
+Tag:
+Description:
+
+================+/+/+/+/+/+/+/+/+/=================
+                  extra  heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (min-width: 1400px) {
+
+    .about__text {
+        margin-left: 70px;
+        width:65%
+    }
+    .about__area2 .about__text {
+        margin-left: 0;
+        width:100%
+    }
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 1400px) {
+
+
+    
+    .client__area .owl-nav {
+       
+        left: -25%;
+    }
+    .welcome3, 
+    .welcome__area, 
+    .welcome2 {
+        height: 700px;
+    }
+    img.wimg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        width: 50%;
+    }
+                    
+}
+
+
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    medium
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                     tab
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 991px){
+    .welcome__area {
+        text-align: center;
+    }
+
+    .about__text {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .single__work2:after{
+        display: none
+    }
+
+    .about2__counters {
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .info__card {
+        margin-top: 0;
+        width: 100%;
+        float: left;
+    }
+
+    .welcome__area2 {
+        background: #060606;
+    }
+
+    img.welcome2__hero__img{
+        display: none
+    }
+
+    .inner__heading{
+        margin-bottom: 40px;
+    }
+
+    .contact__area.contact__page {
+        margin-top: 0;
+    }
+
+    .single__footer {
+        margin-top: 30px;
+    }
+
+     .contact__form {
+        padding: 30px 0;
+        margin-bottom: 50px
+    }
+
+    .contact__area{
+        text-align: center;
+    }
+
+    .counters1{
+        margin-bottom: 60px;
+    } 
+    img.contact1__img{
+        display: none
+    }
+    .welcome2{
+        padding: 0;
+    }
+
+    .counter__type2 .counter__wrap {
+        margin-top: 120px;
+        height: auto;
+    }
+    .cCard2{
+        margin-bottom: 50px !important
+    }
+    .theme__bg__left:after, 
+    .theme__bg__left:before{
+        display: none;
+    }
+    .progress__area .single__progress, 
+    .progress__area .single__progress p, 
+    .progress__area .white h3, 
+    .progress__area .white p{
+        color: #303845;
+    }
+    .about__skills{
+        margin-left: 0;
+    }
+    .single__skill{
+        width: 100%;
+    }
+}
+
+/*tablet layout:768px*/
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .about__area {
+        padding: 0 30px;
+    }
+
+    .about__text {
+        margin-top: 30px;
+    }
+    .welcome__area {
+        height: 800px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        z-index: 2;   
+    }
+
+    .about__area2{
+        margin-top: 40px;
+    }
+
+    .download__btn__group a:first-child {
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+
+    .download__btn__group a {
+        width: 45%;
+    }
+
+}    
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    Mobile
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .welcome__text{
+        text-align: center
+    }
+    .welcome__area {
+        height: auto;
+        padding: 100px 0;
+    }
+    img.wimg{
+        display: none;
+    }
+    a.cbtn {
+        padding: 14px 25px;
+    }
+    .about__text h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 30px;
+    }
+    .heading__rbtn{
+        margin-top: 30px;
+        text-align: left;
+    }
+    .footer__social {
+        text-align: left;
+        margin-top: 30px;
+    }
+   
+    .work__area{
+        text-align: center;
+    }
+    .heading3 h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .heading h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .heading__area{
+        margin-bottom: 30px;
+    }
+    .testimonials .owl-nav {
+        position: absolute;
+        right: 0;
+        bottom: auto;
+        top: 0%;
+    }
+    
+    .form__popup .contact__form {
+        width: 95%;
+        margin-top: 40%;
+    }
+    
+    .work__area2__wrap {
+        margin-top: 0;
+        position: relative;
+        z-index: 9;
+        margin-left: 0;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .video2__btn {
+        margin: 50px 0;
+    }
+    
+    .client__card2 {
+        padding: 20px;
+    }
+    .client__carousel{
+        margin-top: 40px;
+    }
+    .heading4 h2 {
+        font-size: 30px;
+        color: #060606;
+        font-weight: 600;
+        line-height: 40px;
+        position: relative;
+        z-index: 2;
+    }
+    .welcome__social2 {
+        right: auto;
+        position: absolute;
+        bottom: 5%;
+        left: 17%;
+    }
+    .btn__group a:first-child {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .welcome__social2 li {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    .heading4 h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    
+    .video2__btn a {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        text-align: center;
+        color: #060606;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 24px;
+    }
+
+    .welcome__area.inner {
+        padding: 150px 0 0 0;
+    }
+    .inner__heading h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .about__details__counter{
+        margin-top: 40px;
+    }
+    
+    .single__card__counter {
+        margin: 10px;
+        width: 100%;
+    }
+    .news__details__sub > div {
+        display: inline-block;
+        width: 49%;
+        position: relative;
+        z-index: 2;
+        padding-left: 20px;
+        margin: 15px 0;
+    }
+    li.abou__social__heading {
+        margin-right: 10px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .single__news__social{
+        margin-bottom: 40px;
+    }
+    .cpagination {
+        float: left;
+    }
+
+    .contact__page__contact__info__card .info__card {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .contact__page__contact__info__card {
+        position: relative;
+        z-index: 9;
+        right: 0;
+        top: 0;
+
+    }
+    .contact__page__single__info{
+        margin-top: 40px;
+    }
+    .about__page{
+        display: none;
+    }
+    .welcome__text h1 {
+        line-height: 36px;
+        font-size: 26px;
+    }
+
+    .welcome__text2 h1 {
+        font-size: 32px;
+    }
+
+    .welcome3 {
+        height: 500px;
+    }
+
+    .skill__boxs {
+        margin-top: 0;
+    }
+
+    .skill__boxs .row > div {
+        margin-bottom: 30px;
+    }
+
+    .skill__boxs .row > div:last-child {
+        margin-bottom: 0;
+    }
+
+    .heading h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .counter__wrap{
+        padding:0;
+    }
+    .total__count h2 {
+        font-size: 24px;
+    }
+    .single__count {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .single__count:last-child {
+        margin-bottom: 0;
+    }
+
+    .single__count h3 {
+        font-size: 24px;
+    }
+
+       
+    .appoinment__img img{
+        display: none
+    }
+    .single__sicon img{
+        display: block
+    }
+    .appoinments {
+        position: relative;
+        padding: 30px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .single__appoinment{
+        margin-bottom: 30px
+    }
+    .single__appoinment:last-child{
+        margin-bottom: 0;
+    }
+    .welcome__area .container-fluid {
+        padding: 0 20px;
+    }
+    .about__author{
+        margin-bottom: 50px;
+    }
+    .card_car {
+        padding: 30px;
+        border: 0;
+        height: auto;
+        border-radius: 0;
+        margin-top: 40px;
+    }
+
+
+    .space-sm-20{
+        height: 20px;
+    }
+    .cta__area2 .row > div {
+        text-align: center !important;
+    }
+    .cta__area2 h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .single__skill {
+        padding: 0px 80px 0px 90px;
+    }
+    .about__skills{
+        margin-top: 50px;
+    }
+    .welcome__social{
+        display: none;
+    }
+        
+}
+
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    wid device
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        width: 480px;
+    }
+
+    .btn__group a:first-child {
+        margin-right:10px;
+        margin-bottom: 0;
+    }
+    
+
+}
+
+
+/*=========================================================================
+                                The end
+==========================================================================*/

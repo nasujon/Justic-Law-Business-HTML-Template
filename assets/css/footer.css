@@ -1,0 +1,116 @@
+
+
+/*
+FOOTER AREA CSS
+*/
+
+.footer__area {
+    position: relative;
+    z-index: 2;
+}
+
+.footer__social {
+    text-align: right;
+}
+
+.footer__social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer__social li a {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #343433;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #616160;
+}
+.footer2 .single__footer__menu li a{
+    color: #fff;
+}
+.footer__social li a:hover {
+    background: #343433;
+    color: #fff;
+}
+
+.footer__social li:last-child {
+    margin-right: 0;
+}
+
+.single__footer {
+    margin-bottom: 30px;
+}
+
+.single__footer__menu li a {
+    font-size: 16px;
+    line-height: 32px;
+    color: #303845;
+    font-weight: 400;
+}
+
+.single__footer h5 {
+    margin-bottom: 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.single__footer__menu li a:hover {
+    color: #F5AA56;
+    padding-left: 2px;
+}
+
+.footer__contact h6 {
+    margin-bottom: 15px;
+    font-family: Montserrat;
+}
+
+.footer__contact a {
+    color: #3e425c;
+}
+
+.footer__chat__option {
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #F5AA56;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.footer__chat__option a {
+    color: #000;
+    font-size: 18px;
+}
+
+.footer__bottom a {
+    color: #7E7E7E;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    padding: 15px 0;
+}
+
+img.footer__map {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    z-index: 99;
+}
+.footer1 {
+    border-top: 1px dashed #E0E1E3;
+}
+
+.footer__bottom {
+    padding: 20px 0;
+}
+
+.footer2__border{
+    border-top: 1px solid #3B424E;
+}
